@@ -8,3 +8,6 @@ you can stop this program with control-C
 ADS1256.py, DAC8532.py, config.py: provided from the shield maker
 
 read_shield_class.py: reading shield, used in real_time_plot_from_shield.py
+
+
+Ref: High-Precision AD/DA Board - Waveshare Wiki https://www.waveshare.com/wiki/High-Precision_AD/DA_Board
