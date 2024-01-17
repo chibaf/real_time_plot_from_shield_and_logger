@@ -30,6 +30,7 @@ while True:
       data.insert(0,array)
       rez = [[data[j][i] for j in range(len(data))] for i in range(len(data[0]))]
       f.write(st+ss[1:5]+","+str(rttime)+","+str(array[0])+","+str(array[1])+","+str(array[2])+str(array[3])+","+str(array[4])+","+str(array[5])+str(array[6])+","+str(array[7])+"\n")
+      print(st+ss[1:5]+","+str(rttime)+","+str(array[0])+","+str(array[1])+","+str(array[2])+str(array[3])+","+str(array[4])+","+str(array[5])+str(array[6])+","+str(array[7]))
       x=range(0, 10, 1)
       plt.clf()
       plt.ylim(0.1,4.0)
