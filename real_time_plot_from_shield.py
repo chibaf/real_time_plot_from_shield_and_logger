@@ -32,6 +32,7 @@ while True:
       f.write(st+ss[1:5]+","+str(rttime)+","+str(array[0])+","+str(array[1])+","+str(array[2])+str(array[3])+","+str(array[4])+","+str(array[5])+str(array[6])+","+str(array[7])+"\n")
       x=range(0, 10, 1)
       plt.clf()
+      plt.ylim(0.1,4.0)
       lin0,=plt.plot(x,rez[0],label="L0")
       lin1,=plt.plot(x,rez[1],label="L1")
       lin2,=plt.plot(x,rez[2],label="L2")
