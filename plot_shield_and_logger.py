@@ -31,6 +31,7 @@ while True:
     ss=str(time.time()-int(time.time()))
     rttime=round(ttime,2)
 
+    arrayL=sport.read_logger(ser)
     array=shield.read_shield()
     if len(array)==8:
       data.pop(-1)
