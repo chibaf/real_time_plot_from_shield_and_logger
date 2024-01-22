@@ -35,11 +35,11 @@ while True:
   array=shield.read_shield()
   array2=sport.read_logger(ser)
   f.write(st+ss[1:5]+","+str(rttime)+","
-  +str(array[0])+","+str(array[1])+","+str(array[2])+","+str(array[3])+","+str(array[4])+","+str(array[5])+","+str(array[6])+","+str(array[7])
+  +str(array[0])+","+str(array[1])+","+str(array[2])+","+str(array[3])+","+str(array[4])+","+str(array[5])+","+str(array[6])+","+str(array[7])+"," # 20240122 added
   +str(array2[0])+","+str(array2[1])+","+str(array2[2])+","+str(array2[3])+","+str(array2[4])+","+str(array2[5])+","+str(array2[6])+","+str(array2[7])+","+str(array2[8])+","+str(array2[9])
   +"\n")
   print(st+ss[1:5]+","+str(rttime)+","
-  +str(array[0])+","+str(array[1])+","+str(array[2])+","+str(array[3])+","+str(array[4])+","+str(array[5])+","+str(array[6])+","+str(array[7])
+  +str(array[0])+","+str(array[1])+","+str(array[2])+","+str(array[3])+","+str(array[4])+","+str(array[5])+","+str(array[6])+","+str(array[7])+"," # 20240122 added
   +str(array2[0])+","+str(array2[1])+","+str(array2[2])+","+str(array2[3])+","+str(array2[4])+","+str(array2[5])+","+str(array2[6])+","+str(array2[7])+","+str(array2[8])+","+str(array2[9]))
   data.pop(-1)
   data2.pop(-1)
